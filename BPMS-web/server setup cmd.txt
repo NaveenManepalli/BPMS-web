@@ -1,0 +1,77 @@
+Microsoft Windows [Version 10.0.22621.3155]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\User\Desktop\web-project>npm init -y
+Wrote to C:\Users\User\Desktop\web-project\package.json:
+
+{
+  "name": "web-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+
+
+
+C:\Users\User\Desktop\web-project>npm install express
+
+added 64 packages, and audited 65 packages in 2s
+
+12 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\Users\User\Desktop\web-project>code .
+
+C:\Users\User\Desktop\web-project>node server.js
+Server is running on http://localhost:3000
+^C
+C:\Users\User\Desktop\web-project>node server.js
+Server is running on http://localhost:3000
+^C
+C:\Users\User\Desktop\web-project>django-admin startproject myproject
+
+C:\Users\User\Desktop\web-project>python manage.py startapp myapp
+python: can't open file 'C:\\Users\\User\\Desktop\\web-project\\manage.py': [Errno 2] No such file or directory
+
+C:\Users\User\Desktop\web-project>cd myproject\myproject
+
+C:\Users\User\Desktop\web-project\myproject\myproject>python manage.py startapp myapp
+python: can't open file 'C:\\Users\\User\\Desktop\\web-project\\myproject\\myproject\\manage.py': [Errno 2] No such file or directory
+
+C:\Users\User\Desktop\web-project\myproject\myproject>cd C:\Users\User\Desktop\web-project
+
+C:\Users\User\Desktop\web-project>django-admin startproject myproject
+CommandError: 'C:\Users\User\Desktop\web-project\myproject' already exists
+
+C:\Users\User\Desktop\web-project>cd myproject
+
+C:\Users\User\Desktop\web-project\myproject>python manage.py startapp myapp
+
+C:\Users\User\Desktop\web-project\myproject>python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+February 15, 2024 - 12:07:13
+Django version 5.0.2, using settings 'myproject.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+[15/Feb/2024 12:07:52] "GET / HTTP/1.1" 200 10629
+Not Found: /favicon.ico
+[15/Feb/2024 12:07:53] "GET /favicon.ico HTTP/1.1" 404 2113
+[15/Feb/2024 12:09:01] "GET / HTTP/1.1" 200 10629
+Not Found: /favicon.ico
+[15/Feb/2024 12:09:01] "GET /favicon.ico HTTP/1.1" 404 2113
+[15/Feb/2024 12:09:04] "GET / HTTP/1.1" 200 10629
